@@ -11,9 +11,9 @@ def is_palindrome(word):
     # first middle
     for i in range(0,long_middle_word):
         middle1.append(word[i])
-    l = int(len(word))
+    long_word = int(len(word))
     # second middle
-    for j in reversed(range(l-1,long_middle_word,-1)):
+    for j in reversed(range(long_word-1,long_middle_word,-1)):
         middle2.append(word[j])
 
     # first middle = reverse(second middle)
