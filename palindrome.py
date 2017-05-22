@@ -2,16 +2,18 @@
 # Created by Yenami
 # Date : May 21, 2017
 
-# devide word in 2
-middle1 = []
-middle2 = []
 
 def is_palindrome(word):
-    long_middle_word = int(len(word)/2)
+
+    # devide word in 2
+    middle1 = middle2 = []
+    long_word = len(word)
+    long_middle_word = int(long_word/2)
+
     # first middle
     for i in range(0,long_middle_word):
         middle1.append(word[i])
-    long_word = int(len(word))
+
     # second middle
     for j in reversed(range(long_word-1,long_middle_word,-1)):
         middle2.append(word[j])
