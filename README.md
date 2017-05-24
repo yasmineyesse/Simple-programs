@@ -7,4 +7,4 @@
 # 5. Read TEXT file
 # 6. Read XML file
 # 7. Write in file
-# 8. Invite user to enter nummeric value
+# 8. Invite user to enter numeric value
