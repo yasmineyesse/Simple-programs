@@ -6,3 +6,4 @@
 # 4. Encoding string (pass to URL)
 # 5. Read TEXT file
 # 6. Read XML file
+# 7. Write in file
