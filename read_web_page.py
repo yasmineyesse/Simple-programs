@@ -9,3 +9,6 @@ target = "fr"
 q = "Hello"
 google_api = "https://translation.googleapis.com/language/translate/v2?key="+key+"&target="+target+"&q="+q
 page = urllib.request.urlopen(google_api)
+
+strpage = page.read()
+print(strpage)
