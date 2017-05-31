@@ -9,3 +9,4 @@
 # 7. Write in file
 # 8. Invite user to enter numeric value
 # 9. Decode HTML 
+# 10. Compare elements of 2 lists
